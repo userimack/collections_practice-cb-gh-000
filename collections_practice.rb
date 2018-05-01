@@ -44,7 +44,7 @@ end
 
 # question-7
 def find_a(array)
-  array.collect do |element|
+  array.select do |element|
     element.start_with?("a")
   end 
 end
