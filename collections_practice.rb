@@ -42,4 +42,9 @@ def kesha_maker(array)
   new_array
 end
 
+# question-7
+def find_a(array)
+  array.collect do |element|
+    element.starts_with("a")
+
     
