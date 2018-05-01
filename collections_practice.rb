@@ -46,4 +46,8 @@ end
 def find_a(array)
   array.select { |element| element.start_with?("a") }
 end
+
+# question-8
+def sum_array(array)
+  
     
